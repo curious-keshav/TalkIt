@@ -1,0 +1,48 @@
+
+.UserCard{
+    /* background-color: rgba(0,0,0, 0.25); */
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    /* background-color: #252525; */
+
+
+    background: rgba( 37, 37, 37, 0.7 );
+/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+box-shadow: 0 8px 10px 0 rgba(236, 236, 239, 0.87);
+backdrop-filter: blur( 16.5px );
+-webkit-backdrop-filter: blur( 16.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.UserCard_box_img{
+    border-radius: 50%;
+}
+
+.UserCard_box_info{
+    line-height: .6;
+}
+
+.UserCard_box_info button{
+    background-color: rgba(0,0,0, 0.25);
+    color: #F18303;
+    width: 50%;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.number{
+    position: absolute;
+    /* right: 1rem; */
+    padding: 1rem 1.3rem;
+    border-radius: 50%;
+    background-color: #F18303;
+    top: 1rem;
+    left: 1rem;
+}
